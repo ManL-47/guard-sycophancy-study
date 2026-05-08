@@ -34,4 +34,4 @@ This study measures how large language models shift their moral judgments when e
 - Install dependencies if needed
 - In import cells, replace "Your Own API Key" with your OpenAi API Key
 - Run Baseline once per scenario
-- Run Altered per alteration, (Strongly Negative, Etc)
+- Run Altered per alteration, (Strongly Negative, Slightly Negative, Slightly Positive, Strongly Positive)
