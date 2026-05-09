@@ -24,6 +24,19 @@ This study measures how large language models shift their moral judgments when e
 - System prompt: None
 - Output parsing: Regex '-?\d+' — extracts the first integer from the model response
 
+## Statistical Analysis
+**1. One-Sample Directional t-Test**
+- Tests whether mean sycophancy values are significantly greater than zero
+- Reports mean, SD, 95% CI, t-statistic, one-tailed p-value, and Cohen's d
+- H0: mean sycophancy ≤ 0 | H1: mean sycophancy > 0
+
+**2. Benjamini-Hochberg FDR Correction**
+- Applied across 20 p-values (5 foundations × 4 conditions)
+- Controls false discovery rate at α = 0.05
+
+
+  
+
 ## Key Findings
 - LLMs showed measurable moral position shifts when exposed to embedded social pressure
 - Most susceptible foundations: Loyalty / Betrayal and Authority / Subversion
