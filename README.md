@@ -20,6 +20,7 @@ This study measures how large language models shift their moral judgments when e
 - top_p: OpenAI default (1.0)
 - max_tokens: Not specified (OpenAI default)
 - Seed: Not set (non-deterministic)
+- Temperature Open AI default (1.0)
 - System prompt: None
 - Output parsing: Regex '-?\d+' — extracts the first integer from the model response
 
